@@ -1,0 +1,41 @@
+.site-btn {
+    display: flex;
+    margin-left: 5.4rem;
+    margin-right: 5.9rem;
+    padding-bottom: 1.6rem;
+    border-radius: 12px;
+    padding: {
+        top: 1.5rem;
+        bottom: 1.5rem;
+    }
+    @media screen and (max-width: 750px) {
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    &-logo {
+        margin-right: 8px;
+    }
+}
+.iphone{
+    background-color: $color-five;
+    width: 333px;
+}
+.ios {
+@include mixim($font-size-18px, $font-weight-700, 1.78, $color-four); 
+}
+.logo-iphone{
+    padding-left: 9.6rem;
+}
+
+.android{
+    margin-top: 1.6rem;
+    background-color: $color-four;
+    width: 333px;
+}
+.logo-android{
+    padding-left: 9.6rem;
+}
+.android-down{
+    @include mixim($font-size-18px, $font-weight-700, 1.78, $color-five); 
+}
